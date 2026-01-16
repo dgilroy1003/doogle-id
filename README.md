@@ -1,6 +1,6 @@
 # doogle-id
 
-Simple Doogle-compatible ID card resource for RedM (renamed from `rsg-id`).
+Simple Doogle-compatible ID card resource for RedM 
 
 Features:
 - NUI form to input name, DOB, job and a photo URL
@@ -12,3 +12,4 @@ Usage:
 - If you use a different inventory system, adapt `tryAddToInventory` in `server.lua` to call your API.
 
 Upload integrations and config: edit `html/upload-config.json` and see README in the original resource for examples (Imgur, ImgBB, transfer.sh, self-hosted proxy).
+
