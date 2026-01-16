@@ -1,0 +1,9 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#111;color:#fff;margin:0;padding:20px}
+.hidden{display:none}
+.panel{background:#222;padding:12px;border-radius:8px;max-width:980px;margin:0 auto}
+input{display:block;width:100%;padding:8px;margin:6px 0;border-radius:4px;border:1px solid #444;background:#111;color:#fff}
+.buttons{display:flex;gap:8px;margin-top:8px}
+button{padding:8px 12px;border-radius:6px;border:0;background:#5a9;color:#012}
+.preview{margin-top:12px}
+canvas{width:100%;max-width:800px;border:1px solid #444}
+img{max-width:100%;height:auto;border:1px solid #444}

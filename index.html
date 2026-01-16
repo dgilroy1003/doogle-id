@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Doogle ID Creator</title>
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div class="panel">
+      <h2>Create ID</h2>
+      <label>Name</label>
+      <input id="name" />
+      <label>DOB</label>
+      <input id="dob" placeholder="YYYY-MM-DD" />
+      <label>Height</label>
+      <input id="height" placeholder="e.g. 6'1\"" />
+      <label>Hair Color</label>
+      <input id="haircolor" placeholder="e.g. Brown" />
+      <label>Weight</label>
+      <input id="weight" placeholder="e.g. 180 lbs" />
+      <label>Place of Birth</label>
+      <input id="pob" placeholder="City, State" />
+      <label>Parent's Place of Birth</label>
+      <input id="ppob" placeholder="City, State" />
+      <label>Photo URL (weblink)</label>
+      <input id="photo" placeholder="https://.../photo.jpg" />
+      <div class="buttons">
+        <button id="previewBtn">Preview</button>
+        <button id="createBtn">Create ID</button>
+        <button id="closeBtn">Close</button>
+      </div>
+      <div class="preview">
+        <canvas id="canvas" width="800" height="500"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div id="viewer" class="hidden">
+    <div class="panel">
+      <h2>ID Preview</h2>
+      <img id="viewImage" />
+      <div class="buttons"><button id="vclose">Close</button></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

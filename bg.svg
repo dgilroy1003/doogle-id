@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500">
+  <rect width="100%" height="100%" fill="#f7f3e9" />
+  <rect x="10" y="10" width="780" height="480" fill="#fff" stroke="#ccc" />
+  <text x="40" y="60" font-size="28" fill="#222" font-family="Arial">Official Government ID</text>
+  <rect x="510" y="110" width="240" height="280" fill="#ddd" stroke="#bbb" />
+  <text x="40" y="120" font-size="20" fill="#666">Name:</text>
+  <text x="40" y="160" font-size="20" fill="#666">DOB:</text>
+  <text x="40" y="200" font-size="20" fill="#666">Height:</text>
+  <text x="40" y="240" font-size="20" fill="#666">Weight:</text>
+  <text x="40" y="280" font-size="20" fill="#666">Hair Color:</text>
+  <text x="40" y="320" font-size="20" fill="#666">Place of Birth:</text>
+  <text x="40" y="360" font-size="20" fill="#666">Parent's Birthplace:</text>
+</svg>
